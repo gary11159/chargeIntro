@@ -60,7 +60,7 @@ const Menu = () => {
               ))}
               <a
                 href="#"
-                className={`font-medium text-primary hover:text-secondary`}
+                className={`font-medium text-yellow-700 hover:text-secondary`}
               >
                 Line免費諮詢
               </a>
