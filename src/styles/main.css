@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary: #ec4755;
+  --color-secondary: #a12c34;
+  --color-tertiaty: #99a0a3;
+}
+
+a { 
+  @apply text-red-700;
+}
+
+a:hover {
+  @apply border-b-2 border-red-700;
+}
+
+
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+* {
+  font-family: 'Noto Sans TC';
+}
+
+.btn,
+.btn:focus {
+    position: relative;
+    min-width: 200px;
+    background: none;
+    border: none;
+    color: #58afd1;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 4px #58afd1;
+    transition: color 0.25s 0.0833333333s;
+    padding: 10px 20px;
+}
+.btn:before,
+.btn:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    border: 0 solid transparent;
+    box-sizing: border-box;
+}
+.btn:before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+.btn:after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+.btn:hover {
+    color: #ffe593;
+}
+.btn:hover:before,
+.btn:hover:after {
+    border-color: #ffe593;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+}
+.btn:hover:before {
+    transition-delay: 0s, 0s, 0.25s;
+}
+.btn:hover:after {
+    transition-delay: 0s, 0.25s, 0s;
+}
