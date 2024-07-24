@@ -4,11 +4,11 @@ import { CheckCircleIcon } from '@heroicons/react/solid';
 
 import config from '../config/index.json';
 
-const Features = () => {
-  const { features } = config;
-  const { title, subtitle, description, items: featuresList } = features;
+const FeaturesSolve = () => {
+  const { featuresSolve } = config;
+  const { title, subtitle, description, items: featuresList } = featuresSolve;
   return (
-    <div className={`bg-background`} id="features">
+    <div className={`py-12 bg-background mt-20`} id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2
@@ -56,6 +56,7 @@ const Features = () => {
             ))}
           </dl>
         </div>
+
         <div className="mt-10 mobileFeatures">
           <p
             className={`text-gray-600 text-2xl`}
@@ -64,8 +65,7 @@ const Features = () => {
               lineHeight: '2',
             }}
           >
-            電動車車主越來越多，目前台灣常見的公有停車場充電樁數量根本供不應求，私人充電樁費用又很高，
-            甚至還有油車去佔位置、充電接口被摔出問題等頭痛的問題非常多
+            在XX充電樁工作室中，我們專注於家用充電樁的設置，我們的安裝技術不僅確保充電樁的高效運作，且能夠符合社區的各種限制，甚至連管委會的申請文件，我們都會協助你準備
           </p>
         </div>
       </div>
@@ -73,4 +73,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default FeaturesSolve;

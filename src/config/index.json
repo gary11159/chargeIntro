@@ -28,12 +28,12 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "電動車生活  無縫接軌 專業充電樁安裝",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "",
+        "description": "Hi~ 我是XXX，擁有超過十年的電力系統工作經驗。從傳統電力維修到現代充電樁安裝，我始終致力於提供最專業、最可靠的服務。對我來說，沒有什麼比確保您的電動車隨時都能順暢行駛更重要。我熟悉各種品牌和型號的充電樁，無論是家用還是商用，我都能提供量身定制的解決方案。",
+        "img": "/assets/images/people.png"
       },
       {
         "title": "Make it your own!",
@@ -43,31 +43,68 @@
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "",
+    "subtitle": "電動車車主常見的三大問題",
+    "description": "",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "name": "里程焦慮",
+        "icon": "/assets/images/low-battery.png"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "name": "充電不便利",
+        "icon": "/assets/images/charging-stationBad.png"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
-      },
-      {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "name": "充電站安全性和維護問題",
+        "icon": "/assets/images/charger.png"
       }
     ]
+  },
+  "featuresSolve": {
+    "title": "",
+    "subtitle": "經由這方案，你將會獲得...",
+    "description": "",
+    "items": [
+      {
+        "name": "方便性：不需到處找充電站",
+        "icon": "/assets/images/charging-station.png"
+      },
+      {
+        "name": "經濟性：享受更低廉的電費",
+        "icon": "/assets/images/loss.png"
+      },
+      {
+        "name": "安全性：保固及良好的安全機制",
+        "icon": "/assets/images/eco-battery.png"
+      }
+    ]
+  },
+  "project": {
+    "title": "電力滿滿—",
+    "subtitle": "愛車也能睡個好覺",
+    "description": "忘掉排隊充電的日子，家用充電樁，讓您隨時準備好上路。",
+    "description2": "我們專業的安裝團隊，為您的家中打造專屬電動車充電站，讓充電變得前所未有的簡單。",
+    "description3": "無論是安裝過程的透明化，還是管委會複雜的規定，我們都致力為您提供最佳體驗。",
+    "description4": "忘掉外出",
+    "description4_1": "尋找充電樁的麻煩、里程的焦慮",
+    "description4_2": "，私人充電站隨時待命，讓您的出遊計劃更加靈活自如。",
+    "items": []
+  },
+  "project2": {
+    "title": "隨插即充，生活更便利",
+    "subtitle": "想像一下，你下班回到家，只需要用充電樁一插，就像手機充電一樣簡單，讓你的電動車隨時都充滿活力。不用擔心那些技術性的小細節，我們有專業的團隊幫你搞定一切，從安裝到保養都不是問題。",
+    "items": []
+  },
+  "contanct": {
+    "title": "不確定自己是否合適？",
+    "subtitle": "安啦！歡迎來預約免費諮詢",
+    "description": "嘿，朋友們！你是不是也在考慮安裝充電樁，但又有點猶豫不決？別擔心，我們完全理解你的心情！其實，安裝充電樁並沒有你想像中那麼複雜。我們的專業團隊會全程為你搞定一切，讓你無後顧之憂。",
+    "description2": "如果你有任何疑問或只是想聊聊，歡迎隨時加入我們的LINE諮詢。我們的目標是讓你在最舒適的狀態下來找我們聊聊，沒有壓力，沒有強迫推銷。就像和朋友閒聊一樣輕鬆自在。"
+  },
+  "summarize": {
+    "title": "讓你在最短時間",
+    "subtitle": "達成一個很棒的效果"
   },
   "pricing": {
     "title": "Pricing",
