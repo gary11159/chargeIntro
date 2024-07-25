@@ -32,10 +32,11 @@ const Contanct = () => {
         </div>
         <div className="px-4 mobileContanct2">
           <span
-            className={`block text-3xl`}
+            className={`block`}
             style={{
               fontWeight: 700,
               lineHeight: '1.4em',
+              fontSize: '26px',
               letterSpacing: '0.5px',
               color: '#5e5d5c',
             }}

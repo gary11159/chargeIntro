@@ -39,7 +39,7 @@ const Product = () => {
             />
           </div>
           <div
-            className={`sm:w-3/5 p-6 pr-50 mobileProduct`}
+            className={`sm:w-3/5 pr-50 mobileProduct`}
             style={{ justifyContent: 'left', alignItems: 'center' }}
           >
             <h3
